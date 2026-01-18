@@ -246,38 +246,42 @@
 
 // }
 
-const speed = +prompt('enter the vehicle speed')
-
-
-if (speed !== 0) {
-
-    if (speed > 0) {
-        console.log('oldiga yurvoti');
-        if (speed % 2 === 0) {
-            console.log('Tez harakatlanmoqda');
-
-        } else {
-            console.log('Sekin harakatlanmoqda');
-
-        }
-    } else if (speed < 0) {
-        console.log('orqaga yurdi');
-        if (speed % 2 === 0) {
-            console.log('Orqaga tez harakatlanmoqda');
-        } else {
-            console.log('Orqaga sekin harakatlanmoqda');
-
-        }
-    }
-
-} else {
-
-    console.log("toxta");
-
-}
+//-----------------------------------------------------------
 
 
 
+// const speed = +prompt('enter the vehicle speed')
+
+// // speed > 0 || speed < 0
+// if (speed !== 0) {
+//     if (speed > 0) {
+//         console.log('oldiga yurvoti');
+//         if (speed % 2 === 0) {
+//             console.log('Tez harakatlanmoqda');
+
+//         } else {
+//             console.log('Sekin harakatlanmoqda');
+
+//         }
+//     } else if (speed < 0) {
+//         console.log('orqaga yurdi');
+//         if (speed % 2 === 0) {
+//             console.log('Orqaga tez harakatlanmoqda');
+//         } else {
+//             console.log('Orqaga sekin harakatlanmoqda');
+
+//         }
+//     }
+
+// } else {
+
+//     console.log("toxta");
+
+// }
+
+
+
+//-----------------------------------------------------------
 
 
 
@@ -311,11 +315,397 @@ if (speed !== 0) {
 // }
 
 
+//-----------------------------------------------------------
+
+
+// const user1 = +prompt('enter the number1')
+// const user2 = +prompt('enter the number2')
+// const user3 = +prompt('enter the number3')
+
+// if (user1 == user2 && user2 == user3) {
+//     console.log('All equal');
+// } else if (user1 == user2 && user1 != user3 ||
+//     user2 == user3 && user1 != user2 || user3 == user1 && user3 != user2
+// ) {
+//     console.log('Two equal');
+
+// } else if (user1 != user2 && user2 != user3 && user1 != user3) {
+//     console.log('All different')
+
+
+// }
+
+
+//-----------------------------------------------------------
+
+
+// const user = +prompt('enter the number to check  wether')
+
+// if (user !== 0) {
+//     console.log('Positive');
+//     if (user % 2 === 0) {
+//         console.log('Positive Even');
+
+//     } else {
+//         console.log('Positive Odd');
+
+//     }
+
+
+// } else if (user < 0) {
+//     console.log('Negative');
+//     if (user % 2 === 0) {
+//         console.log('Negative Even');
+
+//     } else {
+//         console.log('Negative Odd');
+
+//     }
+
+// }else{
+//     console.log('Zero');
+
+// }
+
+//-----------------------------------------------------------
+
+
+// const Age = +prompt('enter the number to check age')
+
+// if (Age < 0) {
+//     console.log('Invalid AgeInvalid Age');
+// } else if (Age === 0) {
+//     console.log('Just Born');
+// } else if (Age >= 1 && Age <= 12) {
+//     console.log('Child');
+
+// } else if (Age >= 20 && Age <= 59) {
+//     console.log('Adult');
+// }else{
+//     console.log('Senior Citizen');
+
+// }
+
+//-----------------------------------------------------------
+
+
+// this is your hamework for loop topic  
+
+// const number1 = +prompt('enter the number to check number1')
+// const number2 = +prompt('enter the number to check number2')
+// const number3 = +prompt('enter the number to check number3')
+
+// let middle;
+
+// if (number1 >= number2 && number1 <= number3 || number1 <= number2 && number1 >= number3) {
+//     middle = number1
+
+// } else if (number2 >= number1 && number2 <= number3 || number2 <= number1 && number2 >= number3) {
+//     middle = number2
+
+
+// } else if (number3 >= number1 && number3 <= number2 || number3 <= number1 && number3 >= number2){
+//     middle = number3
+
+// }
+
+// alert(`middle number is here ${middle} `)
+
+
+
+
+// const user = +prompt('5 + 5')
+// let answer = 10
+// if (user == answer) {
+//     alert(`correct answer  ${answer}`);
+
+// } else {
+//     alert(`incorrect answer  ${user}`);
+
+// }
+// console.log(`sizni javobingiz - ${user} va togri javob - ${answer}`);
+
+
+
+
+// let user = +prompt('enter the number')
+
+// while (isNaN(user)) {
+//     user = +prompt('entre the number  ')
+
+// }
+// let answer = 1;
+
+// for (let i = 1; i <= user; i++) {
+//     answer *= i
+// }
+
+// console.log(answer);
+
+//-----------------------------------------------------------
+
+
+
+// let user = +prompt('enter the number ')
+
+// let answer = 0;
+
+// for (let i = 1; i < user; i++) {
+//     answer += i 
+// }
+
+// console.log(answer);
+
+//-----------------------------------------------------------
+
+
+
+//i have to ask this one from my teacher 
 
 
 
 
 
+
+
+// const number = +prompt('enter the number')
+
+// let answer = 0
+
+// for (let i = 1; i <= number; i++) {
+//     if (i % 2 === 0) {
+//         answer += i
+//     }
+// }
+// console.log(`here is the your answer ${answer}`);
+
+
+
+//-----------------------------------------------------------
+
+
+
+// THIS IS DOUBLE LOOPS TOPIC HERE ===>
+
+
+// let user = +prompt("son kiritin")
+// let box = ""
+
+// for (let i = 0; i < user; i++) {
+//     for (let j = 0; j < user; j++) {
+//         if (i == j  || j == 0 || i == 0 || j == user -1 || i == user -1) {
+//             box += `[*]`
+//         } else {
+//             box += "   "
+//         }
+//     }
+//     console.log(box);
+//     box = ''
+
+// }
+
+
+// let user = ''
+
+// for (let i = 0; i < 8; i++) {
+//     for (let j = 0; j < 8; j++) {
+//         if (i % 2 === 0 && j % 2 === 1 || i % 2 === 1 && j % 2 === 0) {
+//             user += ' ⬛'
+//         } else {
+//             user += ' ⬜'
+//         }
+//     }
+//     console.log(user);
+//     user = ''
+
+// }
+
+
+// let user = prompt('enter the number')
+// let box = ''
+
+// for (let i = 0; i < user; i++) {
+//     for (let j = 0; j < user; j++) {
+//         if (i == j || i == 0 || j == 0 || i == user - 1 || j == user - 1) {
+//             box += '[*]'
+
+//         } else {
+//             box += "   "
+//         }
+//     }
+//     console.log(box);
+//     box = ''
+
+
+// }
+
+
+// const sheep = +prompt('enter the number')
+// let user = ''
+
+// for (let i = 0; i < sheep; i++) {
+//     for (let j = 0; j < 1; j++) {
+//         user += `${i + 1 } sheep ...`
+//     }
+
+// }
+// console.log(user);  
+
+
+
+
+
+// const sheep = +prompt('enter the number');
+// let user = '';
+
+// for (let i = 0; i < sheep; i++) {
+//   for (let j = 0; j < 1; j++) {
+//     user += (i + 1) + ' sheep ... ';
+//   }
+// }
+
+// console.log(user);
+
+
+
+
+// let user = prompt('enter the number')
+
+// for (let i = 0; i < user; i++) {
+//     for (let j = 0; j < user; j++) {
+//         if () {
+//             console.log(user);
+
+//         }
+//     }
+
+// }
+
+
+
+
+
+
+// const sheep = prompt('enter the numbers')
+// let user = ''
+
+// for (let i = 1; i <= sheep; i++) {
+//     user += ` ${i} sheeps....`
+
+//     if (i === 1) {
+//         console.log('1 sheep....');
+//     } else  {
+//         console.log(`${i} sheeps....`);
+//     }
+// }
+// console.log(user);
+// // user += `${i + 1} sheep....`
+
+//-----------------------------------------------------------
+
+
+// FUCTION TOPIC AND HOMEWORK HERE ===> 
+
+
+// const user = prompt('enter the your name ')
+// let birthYear = +prompt('enter the your birth year ')
+// let currentYear = +prompt('enter the current year ')
+// while (isNaN(birthYear)) {
+//     birthYear = +prompt('i said enter the your birth year ')
+//     currentYear = +prompt('i said enter the current year ')
+// }
+
+// let box = ''
+
+// box = currentYear - birthYear
+
+// console.log(`${user} is ${box} years old`);
+
+
+let str = () => {
+
+    let num1 = Math.floor(Math.random() * 50) + 1;
+    let num2 = Math.floor(Math.random() * 10) + 1;
+    
+
+
+    let operators = ['+', "-", '/', '*']
+
+    let mini = operators[Math.floor(Math.random() * operators.length)]
+
+
+
+    let answer = ''
+
+    if (mini === '+') {
+        answer = num1 + num2
+    }else if(mini === '-'){
+        answer = num1 - num2
+    }else if(mini === '*'){
+        answer = num1 * num2
+    }else if(mini === '/'){
+        answer = Math.floor(num1 / num2)
+    }
+
+
+    
+    
+    let box = +prompt(`${num1}  ${mini}  ${num2} = ? `)
+    
+    if (answer == box) {
+        console.log(`your asnwer is correct ${answer}`);
+    } else {
+        console.log(`your asnwer is incorrect ${box}. correct one was ${answer}`);
+
+    }
+
+
+}
+
+str()
+
+
+
+// let num1 = Math.floor(Math.random() * 10) + 1;
+// let num2 = Math.floor(Math.random() * 10) + 1;
+
+// let operators = ['+', "-", '/', '*', '%']
+
+// let mini = operators[Math.floor(Math.random() * operators.length)]
+
+
+// let box = `${num1}  ${mini}  ${num2} `
+
+
+
+
+
+
+
+
+
+// let num1 = Math.floor(Math.random() * 10) + 1;
+// let num2 = Math.floor(Math.random() * 10) + 1;
+
+// let operators = ['+', "-", '/', '*']
+
+// let mini = operators[Math.floor(Math.random() * operators.length)]
+
+// let box = `${num1}  ${mini}  ${num2} `
+
+// let correctanswer = eval(box)
+
+// if (+answer == correctanswer) {
+//     console.log(`your asnwer is correct ${answer}`);
+// } else {
+//     console.log(`your asnwer is incorrect ${answer}. correct one was ${correctanswer}`);
+
+// }
+
+// let answer = +prompt(`give me the answer ${box}`)
+
+
+//-----------------------------------------------------------
 
 
 
